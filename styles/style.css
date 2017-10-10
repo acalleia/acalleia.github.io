@@ -1,8 +1,9 @@
 .headerCont {
-	margin: 13vh 0 0 3vw;
+	margin: 6vh 0 0 3vw;
 	display: flex;
 	flex-direction: row;
 }
+
 
 .face {
 	flex: 1;
@@ -14,9 +15,6 @@
 }*/
 header{
 	margin-bottom: 4%;
-}
-
-body {
 }
 
 .navBar {
@@ -66,13 +64,15 @@ body {
 }
 
 .project-container{
-	display: none;
+	
+	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	padding-top: 5vh;
 }
 
 .projects {
+	display: none;
 	display: flex;
 	flex-direction: column;
 	height: 30vh;
@@ -82,14 +82,23 @@ body {
 	color: #233843;
 	font-size: 2em;
 	margin-bottom: 4%;
-	padding-bottom: 2%;
+	padding-bottom: 3%;
 	align-items: center;
+	}
+
+
+
+	#projects {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
 	}
 
 .projects img {
 	width: 18vw;
 	padding-bottom: 5%;
 }
+
 
 #jobTitle {
 	margin-bottom: 2%;
@@ -111,6 +120,8 @@ body {
 .aboutTitle {
 	font-size: 3em;
 }
+
+
 
 footer {
 	margin-top: 2%;
@@ -148,6 +159,17 @@ footer {
 }
 
 #HomeBtn-2:hover {
+	color: #E36363;
+}
+
+.top-btn {
+	font-family: 'Poiret One', cursive;
+	text-decoration: none;
+	color: #233843;
+	font-size: 45px;
+}
+
+.top-btn:hover {
 	color: #E36363;
 }
 
