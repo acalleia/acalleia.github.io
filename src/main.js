@@ -16,7 +16,12 @@ $(function () {
 
     let $Inktober = $('<div class="projects"><a href="https://inktoberapp.herokuapp.com/"><img src = "assets/inktoberapp-thumb.png" /></a>Inktober</div>').appendTo('.project-container');
 
+    let $TopBtnProjects = $('<a class="top-btn" href="#top">Top</a>').appendTo('#projects');
+
     let $About = $('<p id="about">I am a results-oriented full stack developer with a background in design. While working in the fashion industry I gained invaluable experience designing and executing within tight deadlines. I use my passion of pop culture and current design trends to help curate each project so they have a fresh, modern look that captures the users attention. I believe that finding the solutions within the constraints of each project I work on pushes me to become a better developer and  designer. I put an emphasis on user experience to ensure my websites are easy to navigate and visually clear. I am an avid learner and love exploring new technology to constantly enhance my abilities and evolve my style.<br><br></p>').appendTo('.about');
+
+    let $TopBtnAbout = $('<a class="top-btn" href="#top">Top</a>').appendTo('.about');
+
     let $headDiv = $('<img class = "self-img" src = "assets/alex-head-colors.png" />').appendTo('.face');
 
     let $linkedin = $('<a class="faBtn" href="https://www.linkedin.com/in/alex-calleia/"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>').appendTo('.icons');
@@ -26,6 +31,8 @@ $(function () {
     let $insta = $('<a class="faBtn" href="https://www.instagram.com/alexgoescalleia/"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i>').appendTo('.icons');
 
     let $email = $('<p>Email: alex_calleia@yahoo.com</p>').appendTo('.contact');
+
+    let $TopBtnContact = $('<a class="top-btn" href="#top">Top</a>').appendTo('.contact');
 
     $('#AboutBtn').on('click', function() {
     	if($('#about').css('display', 'none')){
