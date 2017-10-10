@@ -1,0 +1,159 @@
+.headerCont {
+	margin: 13vh 0 0 3vw;
+	display: flex;
+	flex-direction: row;
+}
+
+.face {
+	flex: 1;
+}
+
+/*.self-img {
+    height: 80%;
+    width: 80%;
+}*/
+header{
+	margin-bottom: 4%;
+}
+
+body {
+}
+
+.navBar {
+	display: flex;
+	color: white;
+	justify-content: flex-end;
+	font-size: 2em;
+	padding: 1% 2% 0 0 ;
+}
+
+.nav {
+	padding-right: 1vw;
+	font-size: 100%;
+	font-family: 'Poiret One', cursive;
+	text-decoration: none;
+	color: white;
+}
+
+.nav:hover {
+	color: #E36363;
+}
+
+.myName {
+	font-size: 1.75em;
+	margin-bottom: 2%;
+	border-bottom: 3px solid white;
+}
+
+.welcome {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	font-size: 5em;
+	font-family: 'Poiret One', cursive;
+	color: white;
+	flex: 3;
+	margin-top: 5%;
+}
+
+.head-container {
+	background-color: #233843;
+	padding-bottom: 2%;
+}
+
+.sub {
+	font-size: .5em;
+}
+
+.project-container{
+	display: none;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 5vh;
+}
+
+.projects {
+	display: flex;
+	flex-direction: column;
+	height: 30vh;
+	border-bottom: 4px solid #233843;
+	width: 20vw;
+	font-family: 'Poiret One', cursive;
+	color: #233843;
+	font-size: 2em;
+	margin-bottom: 4%;
+	padding-bottom: 2%;
+	align-items: center;
+	}
+
+.projects img {
+	width: 18vw;
+	padding-bottom: 5%;
+}
+
+#jobTitle {
+	margin-bottom: 2%;
+}
+
+.about {
+	padding-top: 5vh;
+	display: none;
+	flex-direction: column;
+	font-family: 'Poiret One', cursive;
+	color: #233843;
+	font-size: 2em;
+	padding-bottom: 2%;
+	align-items: center;
+	width: 90%;
+	margin: 0 auto; 
+	}
+
+.aboutTitle {
+	font-size: 3em;
+}
+
+footer {
+	margin-top: 2%;
+	background-color: #E35353;
+	color: white;
+	font-size: 1.75em;
+	padding: 1% 0 1% 0; 
+	text-align: center;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
+.contact {
+	display: none;
+	font-size: 4em;
+	flex-direction: column;
+	font-family: 'Poiret One', cursive;
+	align-items: center;
+}
+.icons {
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.faBtn {
+	margin: 2%;
+	color: #233843;
+}
+
+.faBtn:hover {
+	color: #E36363;
+}
+
+#HomeBtn-2:hover {
+	color: #E36363;
+}
+
+@media {
+
+	.icons {
+		/*flex-direction: column;*/
+	}
+}
