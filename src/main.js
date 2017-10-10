@@ -1,11 +1,11 @@
 $(function () {    
     let $home = $('<a id="HomeBtn" class="nav">Home</a>').appendTo('.navBar');
     
-    let $Projects = $('<a id="ProjectsBtn" href="projects" class="nav">Projects</a>').appendTo('.navBar');
+    let $Projects = $('<a id="ProjectsBtn" href="#projects" class="nav">Projects</a>').appendTo('.navBar');
     
-    let $AboutNav = $('<a id="AboutBtn" href="about" class="nav">About</a>').appendTo('.navBar');
+    let $AboutNav = $('<a id="AboutBtn" href="#about" class="nav">About</a>').appendTo('.navBar');
     
-    let $Contact = $('<a id="ContactBtn" href="contact" class="nav">Contact</a>').appendTo('.navBar');
+    let $Contact = $('<a id="ContactBtn" href="#contact" class="nav">Contact</a>').appendTo('.navBar');
     
 
     let $TheBandShell = $('<div class="projects"><a href="https://immense-depths-23632.herokuapp.com/"><img src = "assets/bandstand-thumb.png" /></a>The Band Stand</div>').appendTo('.project-container');
