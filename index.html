@@ -3,49 +3,225 @@
 <head>
     <meta charset="UTF-8">
     <script src='vendor/jquery.js'></script>
+    
     <link rel='stylesheet' type='text/css' href='./styles/reset.css'>
-    <link rel='stylesheet' type='text/css' href='./styles/style.css'>
+    
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="ekko-lightbox.css">
+    <link rel='stylesheet' type='text/css' href='./styles/style.css'>
     <title>Alex Calleia</title>
 </head>
 <body>
-    <header class="head-container">
-        <div id="top" class="navBar">
-            
-
-        </div>
-        <div class="headerCont">
-        <div class="welcome">
-            <a id="HomeBtn-2" class="myName">Alex Calleia</a>
-            <h1 id="jobTitle">Full Stack Developer & Designer</h1>
-            <h1 class="sub">Focus in Front End Development</h1>
-        </div>
-        <div class="face">
-
-        </div>
-        </div>
-    </header>
+    <header class="head-container box">
     
-    <div class="body-container">
-        <div id="about" class="about">
-            <h1 class="aboutTitle">About Me</h1>
-            <br>
-        </div>  
-        <div id="projects">
-            <div class="project-container">
+    </header>
+    <!-- <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+    <div class="navbar-header"> 
+        <div class="nameTitle">
+            <a id="name" href="index.html">
+                    <span class="myName"><strong>Alex Calleia &nbsp &nbsp Front End Developer & Designer</strong></span>
+            </a>
+        </div>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>  
+        
+     </div>       
 
+        <ul class="nav navbar-nav navbar-right collapse navbar-collapse" id="bs-nav-demo">
+            <li><a href="index.html"><strong>Home</strong></a></li>
+            <li><a href="about.html"><strong>About</strong></a></li>
+            <li><a href="about.html"><strong>Graphic Design</strong></a></li>
+            <li><a href="about.html"><strong>Web Projects</strong></a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </div>   
+    </div>
+    </nav> -->
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="navigation">
+        <div class="name-div">
+            <p id="name"><strong>Alex Calleia</strong></p>
+            <p id="job">Front End Developer & Designer</p>
+        </div>
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><strong>Home</strong><span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <strong>Artwork</strong>
+                    </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#paulette"><strong>Madame Paulette</strong></a>
+                    <a class="dropdown-item" href="#swim">Swimwear</a>
+                    <a class="dropdown-item" href="#general">General</a>
+                </div>
+            </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#web"><strong>Web Projects</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><strong>Contact</strong></a>
+                </li>
+            </ul> 
+        </div>
+    </nav>
+        
+    <div class="containerForPara">
+        <div id="para1">
+            <div class="aboutContainer">
+                <p id="aboutText" class="box">I am a results-oriented full stack developer and graphic designer. While working in the fashion industry I gained invaluable experience designing and executing within tight deadlines. I use my passion of pop culture and current design trends to help curate each project so they have a fresh, modern look that captures the users attention. I believe that finding the solutions within the constraints of each project I work on pushes me to become a better developer and  designer. I put an emphasis on user experience to ensure my websites are easy to navigate and visually clear. I am an avid learner and love exploring new technology to constantly enhance my abilities and evolve my style.</p>
             </div>
         </div> 
-        <div id="contact" class="contact">
-            <div class="icons">
-                
-            </div>
+    </div>
+
+    <h1>Madame Paulette</h1>
+    <div class="container" id="paulette">
+        <div class="row">
+                <a href="" class="col-sm-3">
+                    <img class="mw-100" src="assets/MP-Promo-Card.jpg" alt="goob">
+                </a>
+                <a href="" class="col-sm-3">
+                    <img class="mw-100" src="assets/Stain-Kit-Mechanical.jpg" alt="tube">
+                </a>
+                <a href="" class="col-sm-3">
+                    <img class="mw-100" src="assets/Saks-Letter-Cover.jpg" alt="tube">
+                </a>
+                <a href="" class="col-sm-3">
+                    <img class="mw-100" src="assets/Saks-Letter-Spread.jpg" alt="tube">
+                </a>
+        </div>
+        <div class="row">
+                <a href="assets/Large-20-percent-inserts.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3 col-sm-12">
+                    <img class="mw-100" src="assets/Small-20-percent-insert.jpg" alt="chum">
+                </a>
+                <a href="assets/Large-20-percent-bw.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3 col-sm-12">
+                    <img class="mw-100" src="assets/Small-20-percent-bw.jpg" alt="chum">
+                </a>
+                <a href="assets/Large-Ataker-Invite.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3 col-sm-12">
+                    <img class="mw-100" src="assets/Small-Ataker-Invite.jpg" alt="chum">
+                </a>
+        </div>
+    </div>  
+    <h1>General</h1>
+    <div class="container" id="general">
+        <div class="row">
+            <a href="assets/Large-Logo.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3 col-sm-12">
+                <img class="mw-100" src="assets/Small-logo.jpg" alt="goob">
+            </a>
+            <a href="assets/Large-Her-Face.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3 col-sm-12">
+                <img class="mw-100" src="assets/Small-Her-Face.jpg" alt="tube">
+            </a>
+            <a href="assets/Large-Letter-Poster.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3 col-sm-12">
+                <img class="mw-100" src="assets/Thumb-Letter-Poster.jpg" alt="tube">
+            </a>
+            <a href="assets/Large-Railroad.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3 col-sm-12">
+                <img class="mw-100" src="assets/Railroad-Small.jpg" alt="tube">
+            </a>
+        </div>
+        <div class="row">
+            <a href="assets/Large-MM-Busi-Card.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3 col-sm-12">
+                <img class="mw-100" src="assets/Small-MM-Busi-Card.jpg" alt="tube">
+            </a>
+            <a href="assets/Large-Red-Lobster.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3 col-sm-12">
+                <img class="mw-100" src="assets/Small-Red-Lobster.jpg" alt="chum">
+            </a>
         </div>
     </div>
-    <footer>
+
+    <!-- <div class="container" id="web">
+        <div class="row"> 
+            <div class="col">
+                <div class="thumbnail">
+                    <div class="img-overlay">
+                        <a href="https://immense-depths-23632.herokuapp.com/">
+                            <div class="webProjects" id="projectsOne"></div>
+                            <img class="web-img" src = "assets/bandstand-thumb.png" /> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="thumbnail">
+                    <div class="img-overlay">
+                        <a href="https://tvshowtrakr.herokuapp.com/">
+                            <div class="webProjects" id="projectsTwo"></div>
+                            <img class="web-img" src = "assets/tvshowtrakr-thumb.png" />       
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="thumbnail">
+                    <div class="img-overlay">
+                        <a href="http://hangmanadarkday.bitballoon.com/">
+                            <div class="webProjects" id="projectsThree"></div>
+                            <img class="web-img" src = "assets/hangman-thumb.png" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="thumbnail">
+                    <div class="img-overlay">
+                        <a href="https://inktoberapp.herokuapp.com/">
+                            <div class="webProjects" id="projectsFour"></div>
+                            <img class="web-img" src = "assets/inktoberapp-thumb.png" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+        
+</div>        
+       
+    <!-- <div class="row">
+        <div class="col-lg-12" id="artworkContainer">
+            <img class="web-img" src="assets/Alex-Portfolio.png" alt="TV Show Tracker Project">
+        </div>
+    </div> -->
+
+<footer>
+    <a href="mailto:alexcalleia97531@gmail.com" class="emailme">Email Me</a>
+    <div id="contact" class="contact-container box">
+        <div class="icons">
+            <a class="faBtn" href="https://www.linkedin.com/in/alex-calleia/">
+                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+            </a>
+            <a class="faBtn" href="https://github.com/acalleia">
+                <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+            </a>
+            <a class="faBtn" href="https://www.instagram.com/alexgoescalleia/">
+                <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+            </a>
+        </div>
         <p>Created by Alex Calleia</p>
+    </div>
+
+    
+    
+        
     </footer>
 </body>
-</html>
+
+<script src="jquery-3.3.1.js"></script>
+<script src="bootstrap.js"></script>
+<script src="ekko-lightbox.js"></script>
 <script src="src/main.js"></script>
+</html>
