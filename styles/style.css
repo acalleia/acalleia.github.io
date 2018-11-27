@@ -1,92 +1,251 @@
-.headerCont {
-	margin: 6vh 0 0 3vw;
-	display: flex;
-	flex-direction: row;
+body{
+	background-color: #f9f9f9;
 }
 
-
-.face {
-	flex: 1;
+.containerForPara{
+	/* max-width: 1400px; */
+  margin: 0 auto;
+  font-size: 24px;
+	 padding: 0px; 
+	top: 0;
+   /* background: #f9f9f9;  */
 }
 
-/*.self-img {
-    height: 80%;
-    width: 80%;
-}*/
-header{
-	margin-bottom: 4%;
+#para1 {
+  background: url('../assets/AlexHeader.png') no-repeat top;
+  background-size: cover;
+  background-attachment: fixed;
+	 height: 200vh; 
+	margin: 0 auto;
+	 width: 100%; 
 }
 
-.navBar {
-	display: flex;
+#para2{
+	background-size: cover;
+	background-attachment: fixed;
+	height: 850px;
+	background-color: green;
+}
+
+#aboutText{
+	margin-top: 100vh;
+	width: 1000px;
+	margin: 0 auto;
+	text-align: justify;
 	color: white;
-	justify-content: flex-end;
-	font-size: 2em;
-	padding: 1% 2% 0 0 ;
+	 /* background-color: rgba(0,0,0,.5);  */
 }
 
-.nav {
-	padding-right: 1vw;
-	font-size: 100%;
-	font-family: 'Poiret One', cursive;
+ .aboutContainer{
+	padding-top: 100vh;
+	height: 100vh;
+	margin: 0 auto;
+	/* background-color: rgba(0,0,0,.5); */
+} 
+
+.navbar {
+	font-size: 1.2em;
+	font-family: 'Poiret One', 'Trebuchet MS';  
 	text-decoration: none;
+	background-color: #009395;
+	height: 20vh;
+	text-align: center;
+	margin: 0 auto;
+	border-bottom: 5px solid #eab25c; 
+	/* width: 92%; */
+	/* border-left: 2px solid #009395;
+	border-right: 2px solid #009395; */
+}
+
+/* #7ea6ac #eab25c #ddaea8 #608085 #74003f #ca105b #de9db5 #588C9C & FFE388 #009395*/
+
+.navbar-dark .navbar-nav .nav-link{
 	color: white;
 }
 
-.nav:hover {
-	color: #E36363;
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #eab25c;
+	/* height: 100%; */
 }
 
-.myName {
-	font-size: 1.75em;
-	margin-bottom: 2%;
-	border-bottom: 3px solid white;
+.name-div{
+	color: white;
+	flex-direction: column;
+	margin-bottom: 0;
+	text-align: left;
+	font-family: 'Poiret One', 'Trebuchet MS'; 
 }
+
+#job{
+	font-size: 1.25em;
+}
+
+#name{
+	font-size: 3.15em; 
+	margin-bottom: 0;
+}
+
+.thumbnail{
+	border: 0px solid black;
+}
+
+.nameTitle{
+	/* background-color: ; */
+	height: 100%;
+	padding: 11px;
+	padding-left: 50px;
+}
+
+/* darkcyan darkred cadetblue palegreen teak */
+/* Really nice yello rgba(255, 210, 0, .7) */
+/* EECDA3 4682b4 */
+
+
+#body-container{
+	margin-top: 25vh;
+}
+
 
 .welcome {
 	display: flex;
+	text-align: center;
+	align-content: center;
+	align-items: center;
 	flex-direction: column;
 	align-items: flex-start;
-	font-size: 5em;
-	font-family: 'Poiret One', cursive;
+	font-size: 2em;
+	 font-family: 'Poiret One', 'Trebuchet MS'; 
 	color: white;
-	flex: 3;
-	margin-top: 5%;
+	/* flex: 3; */
+	margin-top: 20px;
 }
 
-.head-container {
-	background-color: #233843;
-	padding-bottom: 2%;
-}
+/* .head-container {
+	background-color: #148;
+	padding-bottom: 1%;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+} */
 
 .sub {
 	font-size: .5em;
 }
 
-.project-container{
-	
-	display: flex;
+.projectContainer{
+	/* background-color: white;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 5em;
+	grid-auto-rows: minmax(100px, auto);
 	flex-direction: row;
 	justify-content: space-around;
-	padding-top: 5vh;
+	width: 90%;
+	margin: 0 auto;
+	width: 100%;
+	margin: 0 auto;
+	align-content: center;
+	align-items: center; */
 }
 
-.projects {
+.row{
+	width: 90%;
+	align-content: center;
+	margin: 0 auto;
+	margin-top: 60px;
+}
+
+.thumbnail p{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	font-size: 1.3em;
+	width: 100%;
+}
+
+.project-container{
+	width: 90%;
+}
+
+#wordsOne{
 	display: none;
-	display: flex;
-	flex-direction: column;
-	height: 30vh;
-	border-bottom: 4px solid #233843;
-	width: 20vw;
-	font-family: 'Poiret One', cursive;
-	color: #233843;
-	font-size: 2em;
-	margin-bottom: 4%;
-	padding-bottom: 3%;
+}
+
+ .img-overlay{
+	position: relative;
+  max-width: 400px;
+} 
+
+.web-img{
+	max-width: 500px;
+	padding: 20px;	 
+}
+
+/* .artworks{
+	
+}
+
+.art-img{
+	width: 100%;
+}
+
+.art-img img{
+	width: 100%;
+} */
+
+/* .webProjects{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+		height: 100%;
+		opacity: 0;
+    color: #fff;
+		padding: 50%;
+		padding-bottom: 0px;
+} */
+
+.webProjects:hover{
+	background-color: rgba(0,0,0,.7);
+	opacity: 1;
+}
+
+
+
+.hoverWords{
+	position: absolute;
+	width: 90%;
+	top:50%;
+	left: 0%;
+}
+
+
+
+.projects {
+	padding-top: 20px;
+	padding-bottom: 5px;
 	align-items: center;
+	transition: .2s ease-in-out;
+	width: 40vh;
+	color: black;
+	margin: 0 auto;
 	}
 
+	.projects:hover {
+		
+		transform: scale(1.1);
+	}
 
+	.projects a {
+		text-decoration: none;
+		font-size: 25px;
+		color:black;
+		font-family: 'Poiret One', 'Trebuchet MS';
+	}
+
+	.projects a:hover{
+		color: #ff3300;
+	}
 
 	#projects {
 		text-align: center;
@@ -101,82 +260,89 @@ header{
 
 
 #jobTitle {
+	font-size: .5em;
 	margin-bottom: 2%;
 }
 
-.about {
-	padding-top: 5vh;
-	display: none;
+#myCarousell {
+	height: 50vh;
+	/* background-color:  */
+}
+
+.mr-auto{
+	margin-right: 0px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+	margin: 0 auto;
+}
+
+#about {
+	padding-top: 80px;
 	flex-direction: column;
-	font-family: 'Poiret One', cursive;
-	color: #233843;
-	font-size: 2em;
+	font-family: 'Poiret One', 'Trebuchet MS';
+	/* font-size: 2em; */
 	padding-bottom: 2%;
 	align-items: center;
 	width: 90%;
 	margin: 0 auto; 
 	}
 
-.aboutTitle {
-	font-size: 3em;
-}
-
-
-
-footer {
+footer{
+	background-color: #eab25c;
 	margin-top: 2%;
-	background-color: #E35353;
-	color: white;
-	font-size: 1.75em;
 	padding: 1% 0 1% 0; 
 	text-align: center;
     left: 0;
     bottom: 0;
-    height: 100px;
     width: 100%;
 }
 
-.contact {
-	display: none;
-	font-size: 4em;
+footer p {
+	padding-top: 10px;
+	font-size: 2em;
 	flex-direction: column;
-	font-family: 'Poiret One', cursive;
-	align-items: center;
+	font-family: 'Poiret One', 'Trebuchet MS';
 }
+
+.emailme{
+	font-family: 'Poiret One', 'Trebuchet MS';
+	color: #009395;
+	font-size: 2em;
+}
+
+.emailme:hover{
+	color: white;
+	text-decoration: none;
+}
+
 .icons {
-	width: 90%;
+	padding: 5px 20px 25px 20px;
 	text-align: center;
-	margin: 0 auto;
 }
 
 .faBtn {
 	margin: 2%;
-	color: #233843;
+	color: #009395;
 }
 
 .faBtn:hover {
-	color: #E36363;
-}
-
-#HomeBtn-2:hover {
-	color: #E36363;
-}
-
-.top-btn {
-	font-family: 'Poiret One', cursive;
+	color: white;
 	text-decoration: none;
-	color: #233843;
-	font-size: 45px;
-	padding-top: 1%;
 }
 
-.top-btn:hover {
-	color: #E36363;
+.contact-container p{
+	padding-bottom: 20px;
 }
 
-@media {
+#artworkContainer{
+	margin: 0 auto;
+}
 
-	.icons {
-		/*flex-direction: column;*/
-	}
+#artworkContainer img{
+	width: 95%;
+}
+
+@media(max-width: 1250px){
+
 }
