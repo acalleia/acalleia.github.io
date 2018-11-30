@@ -2,10 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src='vendor/jquery.js'></script>
-    
     <link rel='stylesheet' type='text/css' href='./styles/reset.css'>
-    
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="bootstrap.css">
@@ -60,18 +57,11 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#"><strong>Home</strong><span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <strong>Artwork</strong>
-                    </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#paulette"><strong>Madame Paulette</strong></a>
-                    <a class="dropdown-item" href="#swim">Swimwear</a>
-                    <a class="dropdown-item" href="#general">General</a>
-                </div>
-            </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#web"><strong>Web Projects</strong></a>
+                    <a class="nav-link" data-target=".carousel" data-slide-to="0" href="#myCarousel"><strong>Madame Paulette</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-target=".carousel" data-slide-to="1" href="#myCarousel"><strong>General</strong></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#"><strong>Contact</strong></a>
@@ -88,108 +78,79 @@
         </div> 
     </div>
 
-    <h1>Madame Paulette</h1>
+    <div id="carouselExampleControls" class="carousel slide" >
+  <div class="carousel-inner" >
+    <div class="carousel-item active">
+       <h1 id="cara-mp">Madame Paulette</h1>
     <div class="container" id="paulette">
         <div class="row">
                 <a href="" class="col-sm-3">
-                    <img class="mw-100" src="assets/MP-Promo-Card.jpg" alt="goob">
+                    <img class="img-fluid" src="assets/MP-Promo-Card.jpg" alt="goob">
                 </a>
                 <a href="" class="col-sm-3">
-                    <img class="mw-100" src="assets/Stain-Kit-Mechanical.jpg" alt="tube">
+                    <img class="img-fluid" src="assets/Stain-Kit-Mechanical.jpg" alt="tube">
                 </a>
                 <a href="" class="col-sm-3">
-                    <img class="mw-100" src="assets/Saks-Letter-Cover.jpg" alt="tube">
+                    <img class="img-fluid" src="assets/Saks-Letter-Cover.jpg" alt="tube">
                 </a>
                 <a href="" class="col-sm-3">
-                    <img class="mw-100" src="assets/Saks-Letter-Spread.jpg" alt="tube">
+                    <img class="img-fluid" src="assets/Saks-Letter-Spread.jpg" alt="tube">
                 </a>
         </div>
         <div class="row">
-                <a href="assets/Large-20-percent-inserts.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3 col-sm-12">
-                    <img class="mw-100" src="assets/Small-20-percent-insert.jpg" alt="chum">
+                <a href="assets/Large-20-percent-inserts.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-lg-3 col-md-12">
+                    <img class="img-fluid" src="assets/Small-20-percent-insert.jpg" alt="chum">
                 </a>
-                <a href="assets/Large-20-percent-bw.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3 col-sm-12">
-                    <img class="mw-100" src="assets/Small-20-percent-bw.jpg" alt="chum">
+                <a href="assets/Large-20-percent-bw.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-lg-3 col-md-12">
+                    <img class="img-fluid" src="assets/Small-20-percent-bw.jpg" alt="chum">
                 </a>
-                <a href="assets/Large-Ataker-Invite.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3 col-sm-12">
-                    <img class="mw-100" src="assets/Small-Ataker-Invite.jpg" alt="chum">
+                <a href="assets/Large-Ataker-Invite.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-lg-3 col-md-12">
+                    <img class="img-fluid" src="assets/Small-Ataker-Invite.jpg" alt="chum">
                 </a>
         </div>
     </div>  
-    <h1>General</h1>
+    </div>
+    <div class="carousel-item">
+      <h1 id="cara-ge">General</h1>
     <div class="container" id="general">
         <div class="row">
-            <a href="assets/Large-Logo.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3 col-sm-12">
-                <img class="mw-100" src="assets/Small-logo.jpg" alt="goob">
+            <a href="assets/Large-Logo.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-lg-3 col-md-12">
+                <img class="img-fluid" src="assets/Small-logo.jpg" alt="goob">
             </a>
-            <a href="assets/Large-Her-Face.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3 col-sm-12">
-                <img class="mw-100" src="assets/Small-Her-Face.jpg" alt="tube">
+            <a href="assets/Large-Her-Face.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-lg-3 col-md-12">
+                <img class="img-fluid" src="assets/Small-Her-Face.jpg" alt="tube">
             </a>
-            <a href="assets/Large-Letter-Poster.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3 col-sm-12">
-                <img class="mw-100" src="assets/Thumb-Letter-Poster.jpg" alt="tube">
+            <a href="assets/Large-Letter-Poster.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-lg-3 col-md-12">
+                <img class="img-fluid" src="assets/Thumb-Letter-Poster.jpg" alt="tube">
             </a>
-            <a href="assets/Large-Railroad.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3 col-sm-12">
-                <img class="mw-100" src="assets/Railroad-Small.jpg" alt="tube">
+            <a href="assets/Large-Railroad.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-lg-3 col-md-12">
+                <img class="img-fluid" src="assets/Railroad-Small.jpg" alt="tube">
             </a>
         </div>
         <div class="row">
-            <a href="assets/Large-MM-Busi-Card.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3 col-sm-12">
-                <img class="mw-100" src="assets/Small-MM-Busi-Card.jpg" alt="tube">
+            <a href="assets/Large-MM-Busi-Card.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-lg-3 col-md-12">
+                <img class="img-fluid" src="assets/Small-MM-Busi-Card.jpg" alt="tube">
             </a>
-            <a href="assets/Large-Red-Lobster.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-3 col-sm-12">
-                <img class="mw-100" src="assets/Small-Red-Lobster.jpg" alt="chum">
+            <a href="assets/Large-Red-Lobster.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-lg-3 col-md-12">
+                <img class="img-fluid" src="assets/Small-Red-Lobster.jpg" alt="chum">
             </a>
         </div>
     </div>
+    </div>
+    
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
-    <!-- <div class="container" id="web">
-        <div class="row"> 
-            <div class="col">
-                <div class="thumbnail">
-                    <div class="img-overlay">
-                        <a href="https://immense-depths-23632.herokuapp.com/">
-                            <div class="webProjects" id="projectsOne"></div>
-                            <img class="web-img" src = "assets/bandstand-thumb.png" /> 
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="thumbnail">
-                    <div class="img-overlay">
-                        <a href="https://tvshowtrakr.herokuapp.com/">
-                            <div class="webProjects" id="projectsTwo"></div>
-                            <img class="web-img" src = "assets/tvshowtrakr-thumb.png" />       
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <div class="thumbnail">
-                    <div class="img-overlay">
-                        <a href="http://hangmanadarkday.bitballoon.com/">
-                            <div class="webProjects" id="projectsThree"></div>
-                            <img class="web-img" src = "assets/hangman-thumb.png" />
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <div class="thumbnail">
-                    <div class="img-overlay">
-                        <a href="https://inktoberapp.herokuapp.com/">
-                            <div class="webProjects" id="projectsFour"></div>
-                            <img class="web-img" src = "assets/inktoberapp-thumb.png" />
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-        
-</div>        
+   
+    
        
     <!-- <div class="row">
         <div class="col-lg-12" id="artworkContainer">
