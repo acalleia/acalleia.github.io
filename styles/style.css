@@ -20,13 +20,6 @@ body{
 	 width: 100%; 
 }
 
-#para2{
-	background-size: cover;
-	background-attachment: fixed;
-	height: 850px;
-	background-color: green;
-}
-
 #aboutText{
 	margin-top: 100vh;
 	width: 1000px;
@@ -48,7 +41,7 @@ body{
 	font-family: 'Poiret One', 'Trebuchet MS';  
 	text-decoration: none;
 	background-color: #009395;
-	height: 20vh;
+	/* height: 20vh; */
 	text-align: center;
 	margin: 0 auto;
 	border-bottom: 5px solid #eab25c; 
@@ -83,22 +76,6 @@ body{
 #name{
 	font-size: 3.15em; 
 	margin-bottom: 0;
-}
-
-@media(max-width: 1200px){
-	 #name{
-		font-size: 5em;
-	} 
-	 #job{
-	font-size: 2em;
-	} 
-	.navbar-dark .navbar-toggler-icon{
-		font-size: 4em;
-	}
-	.navbar ul{
-		font-size: 2.5em;
-		background-color: #009395;
-	}
 }
 
 .thumbnail{
@@ -367,6 +344,27 @@ footer p {
 	width: 95%;
 }
 
-@media(max-width: 1250px){
 
+@media(max-width: 1200px){
+	 #name{
+		font-size: 5em;
+	} 
+	 #job{
+	font-size: 2em;
+	} 
+	.navbar-dark .navbar-toggler-icon{
+		font-size: 4em;
+	}
+	.navbar ul{
+		font-size: 2.5em;
+		background-color: #009395;
+	}
+
+	#aboutText{
+		font-size: 2.25em;
+		width: 95vw;
+	}
 }
+
+@media(max-width: )
+
