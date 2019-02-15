@@ -18,7 +18,7 @@
 
 #aboutText{
 	margin-top: 100vh;
-	width: 1000px;
+	width: 95vw;
 	margin: 0 auto;
 	text-align: justify;
 	color: white;
@@ -379,43 +379,15 @@ footer p {
 	width: 95%;
 }
 
+@media only screen and (max-width: 901px){
 
-@media only screen and (max-width: 1200px){
-	/* #name{
+	#aboutText{
 		font-size: 1.2em;
-	}  */
-
-	#aboutText{
-		font-size: 2em;
-		width: 95vw;
-	}
-
-	#aboutText{
-		margin-top: -75vh;
-	}
-
-	#galleryBtns {
-		display: block;
-	}
-
-	#galleryBtns a {
-		display: flex;
-		width: 100vw;
-	}
-}
-
-@media only screen and (max-width: 900px){
-	#aboutText{
-		font-size: 1em;
-		width: 95vw;
+		margin-top: -60vh;
 	}
 
 	#para1 {
-		height: 100vh;
-	}
-
-	#aboutText{
-		margin-top: -75vh;
+		height: 150vh;
 	}
 
 	.navbar-dark .navbar-toggler-icon{
@@ -428,3 +400,23 @@ footer p {
 
 }
 
+ @media (min-width: 902px) and (max-width: 1201px){
+	
+	#para1 {
+		height: 150vh;
+	}
+	
+	#aboutText{
+		font-size: 1.2em;
+		margin-top: -60vh;
+	}
+
+	#galleryBtns {
+		display: block;
+	}
+
+	#galleryBtns a {
+		display: flex;
+		width: 100vw;
+	}
+} 
