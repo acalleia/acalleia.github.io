@@ -7,6 +7,10 @@
    /* background: #f9f9f9;  */
 }
 
+body{
+	background-color: #233142;
+}
+
 #para1 {
   background: url('../assets/AlexHeader.png') no-repeat top;
   background-size: cover;
@@ -33,16 +37,11 @@
 .navbar {
 	font-size: 1.2em;
 	text-decoration: none;
-	background-color: #009395;
+	background-color: whitesmoke;
 	/* height: 20vh; */
 	text-align: center;
-	margin: 0 auto;
-	width: 95VW;
-	border-bottom-right-radius: 10px;
-	border-bottom-left-radius: 10px;
-	border-bottom: 5px solid #eab25c; 
-	border-left: 5px solid #eab25c;
-	border-right: 5px solid #eab25c; 
+	margin: 0 auto;	 
+	/* border-bottom: 5px solid #233142; */
 }
 /* rgb(99, 254, 124) SUPER FUCKING NICE GREEN */
 /* #7ea6ac #eab25c #ddaea8 #608085 #74003f #ca105b #de9db5 #588C9C & FFE388 #009395*/
@@ -52,20 +51,24 @@ font-family: 'Shadows Into Light Two', cursive;
 font-family: 'Rock Salt', cursive; */
 
 .navbar-dark .navbar-nav .nav-link{
-	color: white;
+	color: #233142;
 	 font-family: 'Poiret One', 'Trebuchet MS'; 
 }
 
 .navbar-dark .navbar-nav .nav-link:hover{
-	color: #eab25c;
+	color: #ff5959;
 	/* height: 100%; */
 }
 
 .name-div{
-	color: white;
+	color: #233142;
 	flex-direction: column;
 	margin-bottom: 0;
 	text-align: left;
+}
+
+.fa.fa-navicon {
+  color: #233142;
 }
 
 #job{
@@ -126,14 +129,6 @@ font-family: 'Rock Salt', cursive; */
 	font-size: .5em;
 }
 
-.carousel-control-prev-icon {
- background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-}
-
-.carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-}
-
 .projectContainer{
 	/* background-color: white;
 	display: grid;
@@ -165,6 +160,9 @@ font-family: 'Rock Salt', cursive; */
 	width: 100%;
 }
 
+.ekko-lightbox-nav-overlay a{
+	color: #233142;
+}
 .project-container{
 	width: 90%;
 }
@@ -258,9 +256,7 @@ font-family: 'Rock Salt', cursive; */
 #galleryBtns {
 	width: 100vw;
 	margin: 0 auto;
-	border-bottom: 2px solid #009395;
 	display: flex;
-	background-color: #eab25c;
 	color: white;
 }
 
@@ -274,20 +270,30 @@ font-family: 'Rock Salt', cursive; */
 	display: none;
 }
 
+#general{
+	background-color: #233142;
+	width: 100%;
+}
+
+
+
 #gene {
-	background-color: #009395;
-	color: #eab25c;
+	background-color: whitesmoke;
+	color: #ff5959;
 }
 
 #gene:hover {
-	color: white;
+	color: #233142;
 }
 
 #madameP:hover {
-	color: #009395;
+	color: #ff5959;
 }
 
-#madameP h1 {
+#madameP{
+	color: #233142;
+	background-color: whitesmoke;
+	border-bottom: 4px solid #ff5959;
 }
 
 .projects img {
@@ -326,7 +332,7 @@ font-family: 'Rock Salt', cursive; */
 	}
 
 footer{
-	background-color: #eab25c;
+	background-color: whitesmoke;
 	margin-top: 2%;
 	padding: 1% 0 1% 0; 
 	text-align: center;
@@ -344,11 +350,11 @@ footer p {
 .emailme{
 	font-size: 1.5em;
 	font-family: 'Montserrat', sans-serif;
-	color: #009395;
+	color: #233142;
 }
 
 .emailme:hover{
-	color: white;
+	color: #ff5959;
 	text-decoration: none;
 }
 
@@ -359,16 +365,17 @@ footer p {
 
 .faBtn {
 	margin: 2%;
-	color: #009395;
+	color: #233142;
 }
 
 .faBtn:hover {
-	color: white;
+	color: #ff5959;
 	text-decoration: none;
 }
 
 .contact-container p{
 	padding-bottom: 20px;
+	color: #233142;
 }
 
 #artworkContainer{
@@ -379,15 +386,20 @@ footer p {
 	width: 95%;
 }
 
+.row a img{
+		margin-bottom: 20px;
+		border: 4px solid whitesmoke;
+	}
+
  @media only screen and (orientation: landscape){
-	
+
 	#para1 {
-		height: 150vh;
+		height: 225vh;
 	}
 	
 	#aboutText{
 		font-size: 1.2em;
-		margin-top: -60vh;
+		margin-top: 0vh;
 	}
 
 	#galleryBtns {
@@ -397,8 +409,24 @@ footer p {
 	#galleryBtns a {
 		display: flex;
 		width: 100vw;
-		padding: 40px 0px 40px 0px;
 	}
+
+	#name{
+		font-size: 2em;
+	}
+
+	#job{
+		font-size: 1em;
+	}
+
+	.navbar-dark .navbar-toggler-icon{
+		font-size: 2.5em;
+	}
+
+	.nav-item{
+		font-size: 1.4em;
+	}
+
 } 
 
 @media only screen and (orientation: portrait){
@@ -438,4 +466,12 @@ footer p {
 		padding: 40px 0px 40px 0px;
 	}
 
+}
+
+@media screen 
+ and (max-device-width: 1000px) 
+ and (min-device-width: 480px){
+	#galleryBtns a {
+		 padding: 30px 0px 30px 0px; 
+	}
 }
