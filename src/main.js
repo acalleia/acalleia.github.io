@@ -41,85 +41,82 @@ $(function () {
     $('#gene').on('click', function(){
         if($('#general').css('display', 'none')){
             $('#madameP').mouseenter(function(){
-                $(this).css("color", "#009395")
+                $(this).css("color", "#ff5959")
             });
             $('#madameP').mouseleave(function(){
-                $(this).css("color", "white")
+                $(this).css("color", "#233142")
             });
             $('#gene').mouseenter(function(){
-                $(this).css("color", "white")
+                $(this).css("color", "#233142")
             });
             $('#gene').mouseleave(function(){
-                $(this).css("color", "#eab25c")
+                $(this).css("color", "#ff5959")
             });
+            $('#gene').css("color", "#ff5959");
+            $('#madameP').css("color", "#233142");
             $('#general').css("display", "grid");
-            $('#gene').css({"color": "#eab25c", "background-color": "#009395"}) 
-            $('#madameP').css({"color": "white", "background-color": "#eab25c"});
-            $('#paulette').css('display', 'none');
-            
+            $('#paulette').css('display', 'none'); 
         }
     })
 
     $('#madameP').on('click', function(){
         if($('#paulette').css('display', 'none')){
             $('#gene').mouseenter(function(){
-                $(this).css("color", "#009395")
+                $(this).css("color", "#ff5959")
             });
             $('#gene').mouseleave(function(){
-                $(this).css("color", "white")
+                $(this).css("color", "#233142")
             });
             $('#madameP').mouseenter(function(){
-                $(this).css("color", "white")
+                $(this).css("color", "#233142")
             });
             $('#madameP').mouseleave(function(){
-                $(this).css("color", "#eab25c")
+                $(this).css("color", "#ff5959")
             });
+            $('#madameP').css("color", "#ff5959");
+            $('#gene').css("color", "#233142");
             $('#paulette').css("display", "grid"); 
-            $('#madameP').css({"color": "#eab25c", "background-color": "#009395"});
-            $('#gene').css({"color": "white", "background-color": "#eab25c"}) 
             $('#general').css('display', 'none');
-            
         }
     })
 
     $('#gen').on('click', function(){
         if($('#general').css('display', 'none')){
             $('#madameP').mouseenter(function(){
-                $(this).css("color", "#009395")
+                $(this).css("color", "#ff5959")
             });
             $('#madameP').mouseleave(function(){
-                $(this).css("color", "white")
+                $(this).css("color", "#233142")
             });
             $('#gene').mouseenter(function(){
-                $(this).css("color", "white")
+                $(this).css("color", "#233142")
             });
             $('#gene').mouseleave(function(){
-                $(this).css("color", "#eab25c")
+                $(this).css("color", "#ff5959")
             });
+            $('#gene').css("color", "#ff5959");
+            $('#madameP').css("color", "#233142");
             $('#general').css("display", "grid");
-            $('#gene').css({"color": "#eab25c", "background-color": "#009395"}) 
-            $('#madameP').css({"color": "white", "background-color": "#eab25c"});
-            $('#paulette').css('display', 'none');
-            
+            $('#paulette').css('display', 'none'); 
         }
     })
     $('#pau').on('click', function(){
         if($('#paulette').css('display', 'none')){
             $('#gene').mouseenter(function(){
-                $(this).css("color", "#009395")
+                $(this).css("color", "#ff5959")
             });
             $('#gene').mouseleave(function(){
-                $(this).css("color", "white")
+                $(this).css("color", "#233142")
             });
             $('#madameP').mouseenter(function(){
-                $(this).css("color", "white")
+                $(this).css("color", "#233142")
             });
             $('#madameP').mouseleave(function(){
-                $(this).css("color", "#eab25c")
+                $(this).css("color", "#ff5959")
             });
+            $('#madameP').css("color", "#ff5959");
+            $('#gene').css("color", "#233142");
             $('#paulette').css("display", "grid"); 
-            $('#madameP').css({"color": "#eab25c", "background-color": "#009395"});
-            $('#gene').css({"color": "white", "background-color": "#eab25c"})
             $('#general').css('display', 'none');
         }
     })
