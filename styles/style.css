@@ -435,6 +435,10 @@ footer p {
 
 @media only screen and (orientation: portrait){
 
+	#para1 {
+  background: url('../assets/AlexHeaderSmall.png') no-repeat top;
+	}
+
 	#aboutText{
 		font-size: 2em;
 		margin-top: -60vh;
