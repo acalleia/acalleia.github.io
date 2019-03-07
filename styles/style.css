@@ -398,6 +398,10 @@ footer p {
  @media only screen and (orientation: landscape){
 
 	#para1 {
+  background: url('../assets/AlexHeaderSmall.png') no-repeat top;
+	}
+
+	#para1 {
 		height: 225vh;
 	}
 	
@@ -441,7 +445,7 @@ footer p {
 
 	#aboutText{
 		font-size: 2em;
-		margin-top: -75vh;
+		margin-top: -80vh;
 	}
 
 	.nav-item{
