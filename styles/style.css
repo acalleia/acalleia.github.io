@@ -441,7 +441,7 @@ footer p {
 
 	#aboutText{
 		font-size: 2em;
-		margin-top: -60vh;
+		margin-top: -75vh;
 	}
 
 	.nav-item{
@@ -449,7 +449,7 @@ footer p {
 	}
 
 	#para1 {
-		height: 150vh;
+		height: 100vh;
 	}
 
 	.navbar-dark .navbar-toggler-icon{
@@ -481,5 +481,9 @@ footer p {
  and (min-device-width: 480px){
 	#galleryBtns a {
 		 padding: 30px 0px 30px 0px; 
+	}
+	
+	#para1 {
+		height: 135vh;
 	}
 }
